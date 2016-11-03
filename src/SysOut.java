@@ -23,6 +23,7 @@ public class SysOut extends Thread {
         System.out.println("Thread runned!");
         synchronized (monitor) {
             try {
+                while (SysOut.predicate)
                 monitor.wait();
             } catch (InterruptedException e) {
                 System.out.println("In Catch!");

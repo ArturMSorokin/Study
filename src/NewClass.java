@@ -20,7 +20,9 @@ public class NewClass {
         calculate();
 //        sysOut.interrupt();
         synchronized (globaoMonitor) {
+            SysOut.predicate=false;
             globaoMonitor.notify();
+
         }
 
         }

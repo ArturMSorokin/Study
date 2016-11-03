@@ -5,11 +5,11 @@ import java.util.List;
  * Created by olymp on 03.11.2016.
  */
 public class SysOut extends Thread {
-    SysOut(Runnable runnable) {
-        super(runnable);
+    SysOut(List list) {
+        this.commonResource=list;
     }
     {
-        commonResource = new ArrayList();
+//        commonResource = new ArrayList();
     }
     @Override
     public void run() {

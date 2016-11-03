@@ -17,7 +17,9 @@ public class SysOut extends Thread {
     @Override
     public void run() {
         for (int i=0; i<1000000; ++i) {
-            commonResource++;
+            synchronized (SysOut.class) {
+                commonResource++;
+            }
         }
     }
     public static int  commonResource;

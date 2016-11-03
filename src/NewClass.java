@@ -18,6 +18,7 @@ public class NewClass {
         List lst=new ArrayList();
         Thread so=new SysOut(lst);
         so.start();
+        so.interrupt();
 
         (new Thread(new Runnable() {
             @Override

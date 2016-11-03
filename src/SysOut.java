@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
+import java.util.function.ObjDoubleConsumer;
 
 /**
  * Created by olymp on 03.11.2016.
@@ -13,11 +15,12 @@ public class SysOut extends Thread {
     {
 //        commonResource = new ArrayList();
     }
+    static Object ob = new Object();
     private boolean inc=true;
     @Override
     public void run() {
         for (int i=0; i<1000000; ++i) {
-            synchronized (SysOut.class) {
+            synchronized (ob) {
                 commonResource++;
             }
         }

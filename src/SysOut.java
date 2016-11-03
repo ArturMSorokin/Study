@@ -4,28 +4,43 @@ import java.util.List;
 /**
  * Created by olymp on 03.11.2016.
  */
+
+
 public class SysOut extends Thread {
-    SysOut(List list) {
-        this.commonResource=list;
+    SysOut() {
+//        this.commonResource=list;
     }
     {
 //        commonResource = new ArrayList();
     }
+    private boolean inc=true;
     @Override
     public void run() {
-        for (int i=0; i<1000; ++i)
-            System.out.println(i);
-        while (true && interrupted()){
-
+        while (!interrupted()) {
+            if (inc) {
+                if (commonResource < 1000)
+                    ++commonResource;
+                else {
+                    inc = false;
+                    --commonResource;
+                }
+            } else {
+                if (commonResource > 0)
+                    --commonResource;
+                else {
+                    inc = true;
+                    ++commonResource;
+                }
+            }
         }
     }
-    private List commonResource;
+    private int  commonResource;
 
-    public List getCommonResource() {
+    public int getCommonResource() {
         return commonResource;
     }
 
-    public void setCommonResource(List commonResource) {
+    public void setCommonResource(int commonResource) {
         this.commonResource = commonResource;
     }
 }

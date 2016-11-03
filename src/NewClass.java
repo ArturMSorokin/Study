@@ -12,13 +12,19 @@ public class NewClass {
     }
 
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, InterruptedException {
 //        Main mn=new Main();
 //        mn.doSeme(1);
-        List lst=new ArrayList();
-        Thread so=new SysOut();
-        so.start();
-//        so.interrupt();
+        List<Thread> lst=new ArrayList();
+        Thread thread=null;
+        for (int i=0; i<10; i++) {
+            lst.add(thread=new SysOut());
+            thread.start();
+        }
+        for (Thread thread1 : lst) {
+            thread1.join();
+        }
+        System.out.println(SysOut.commonResource);
 
 //        (new Thread(new Runnable() {
 //            @Override

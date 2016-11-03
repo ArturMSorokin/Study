@@ -16,25 +16,11 @@ public class SysOut extends Thread {
     private boolean inc=true;
     @Override
     public void run() {
-        while (!interrupted()) {
-            if (inc) {
-                if (commonResource < 1000)
-                    ++commonResource;
-                else {
-                    inc = false;
-                    --commonResource;
-                }
-            } else {
-                if (commonResource > 0)
-                    --commonResource;
-                else {
-                    inc = true;
-                    ++commonResource;
-                }
-            }
+        for (int i=0; i<1000000; ++i) {
+            commonResource++;
         }
     }
-    private int  commonResource;
+    public static int  commonResource;
 
     public int getCommonResource() {
         return commonResource;

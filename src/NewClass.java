@@ -3,6 +3,7 @@
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * Created by olymp on 02.11.2016.
@@ -13,29 +14,23 @@ public class NewClass {
 
 
     public static void main(String[] args) throws IOException, InterruptedException {
-//        Main mn=new Main();
-//        mn.doSeme(1);
-        List<Thread> lst=new ArrayList();
-        Thread thread=null;
-        for (int i=0; i<10; i++) {
-            lst.add(thread=new SysOut());
-            thread.start();
+        Object globaoMonitor = new Object();
+        SysOut sysOut=new SysOut(globaoMonitor);
+        sysOut.start();
+        calculate();
+//        sysOut.interrupt();
+        synchronized (globaoMonitor) {
+            globaoMonitor.notify();
         }
-        for (Thread thread1 : lst) {
-            thread1.join();
+
         }
-        System.out.println(SysOut.commonResource);
 
-//        (new Thread(new Runnable() {
-//            @Override
-//            public void run() {
-//                for (int i=0; i<1000; ++i) {
-//                    System.out.println(i*10);
-//                }
-//            }
-//        })).run();
-
-//
-////        System.out.print(sum);
+        public static void calculate() {
+            try {
+                Thread.sleep(5_000);
+                System.out.println("Calculate is over");
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
     }

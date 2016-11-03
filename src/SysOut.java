@@ -9,29 +9,26 @@ import java.util.function.ObjDoubleConsumer;
 
 
 public class SysOut extends Thread {
-    SysOut() {
-//        this.commonResource=list;
+    SysOut(Object monitor) {
+        this.monitor=monitor;
     }
     {
 //        commonResource = new ArrayList();
     }
-    static Object ob = new Object();
+    Object monitor ;
     private boolean inc=true;
+    static boolean predicate = true;
     @Override
     public void run() {
-        for (int i=0; i<1000000; ++i) {
-            synchronized (ob) {
-                commonResource++;
+        System.out.println("Thread runned!");
+        synchronized (monitor) {
+            try {
+                monitor.wait();
+            } catch (InterruptedException e) {
+                System.out.println("In Catch!");
+                e.printStackTrace();
             }
         }
-    }
-    public static int  commonResource;
-
-    public int getCommonResource() {
-        return commonResource;
-    }
-
-    public void setCommonResource(int commonResource) {
-        this.commonResource = commonResource;
+        System.out.println("Thread execution!");
     }
 }

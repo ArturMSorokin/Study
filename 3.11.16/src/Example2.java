@@ -73,6 +73,7 @@ public class Example2 {
         chronometer.start();
         reminder5.start();
         reminder7.start();
+
 //        chronometer.join();
     }
 }

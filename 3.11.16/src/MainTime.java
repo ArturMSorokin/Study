@@ -30,6 +30,7 @@ public class MainTime extends Thread {
                 e.printStackTrace();
             }
             synchronized (globalMonitor) {
+
                 System.out.println("Spend " + ++secs + " seconds");
                 globalMonitor.notifyAll();
 

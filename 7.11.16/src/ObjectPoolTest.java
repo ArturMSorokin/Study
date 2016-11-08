@@ -1,3 +1,5 @@
+import jdk.nashorn.internal.runtime.regexp.joni.encoding.ObjPtr;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -9,7 +11,7 @@ import java.util.Objects;
 
 public class ObjectPoolTest {
 
-    public class PoolClient implements Runnable {
+    private class PoolClient implements Runnable {
         ObjectPool pool;
         Object resource;
 
@@ -19,7 +21,11 @@ public class ObjectPoolTest {
 
         @Override
         public void run() {
-            resource = pool.getObject();
+            try {
+                resource = pool.getObject();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
             try {
                 Thread.sleep((int)(Math.random()*1000));
             } catch (InterruptedException e) {
@@ -29,8 +35,8 @@ public class ObjectPoolTest {
             resource=null;
         }
     }
-
-    public class ObjectPool {
+//______________________________________________________________________________________
+    private class ObjectPool {
         private Object monitor=new Object();
         private int size = 10, taken = 0;
         private LinkedList pool;
@@ -47,27 +53,29 @@ public class ObjectPoolTest {
             initList();
         }
 
-        public Object getObject() {
+        public Object getObject() throws Exception {
             if (pool.size() > 0)
                 return pool.removeLast();
             else {
-                synchronized (monitor) {
-                    int wait = timeOutMs;
-                    while (pool.size()<1 || wait>0) {
-                        try {
-                            Thread.sleep(1);
-                            --wait;
-                        } catch (InterruptedException e) {
-                            e.printStackTrace();
+                synchronized (pool) {
+                    try {
+                        pool.wait(timeOutMs);
+                        if (pool.size() > 0) {
+                            return pool.removeLast();
+                        } else {
+                            throw new Exception("No Items");
                         }
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
                     }
                 }
             }
-            return new Object();
+            return null;
         }
 
         public void returnObject(Object obj) {
-
+            pool.add(obj);
+            pool.notify();
         }
 
         public void setTimeOutMs(int timeOutMs) {
@@ -90,5 +98,12 @@ public class ObjectPoolTest {
         }
 
 
+    }
+
+    public void testPool() {
+        ObjectPool pool = new ObjectPool();
+        for (int i=0; i<pool.size+2; ++i) {
+            new Thread(new PoolClient(pool)).start();
+        }
     }
 }

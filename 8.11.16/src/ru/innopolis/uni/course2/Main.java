@@ -1,8 +1,8 @@
 package ru.innopolis.uni.course2;
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
+import java.io.Serializable;
+import java.lang.reflect.*;
+
 
 /**
  * Created by olymp on 08.11.2016.
@@ -36,6 +36,25 @@ public class Main {
         Constructor[] constructors = humanClass.getConstructors();
         Object o = constructors[0].newInstance();
         System.out.println(humanClass);
+
+//        Object obj = Proxy.newProxyInstance(ClassLoader,
+//                new Class[]{Serializable.class, Runnable.class}, new InvocationHandler() {
+//                    @Override
+//                    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+//                        return null;
+//                    }
+//                });
+        Object proxy = Proxy.newProxyInstance(Main.class.getClassLoader(),
+                new Class[]{InterfaceOne.class, InterfaceTwo.class}, new InvocationHandler() {
+                    @Override
+                    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+                        System.out.println(args[0]);
+                        return null;
+                    }
+                });
+        InterfaceOne one = (InterfaceOne)proxy;
+        one.doSome(5);
+        System.out.println(proxy);
 
     }
 

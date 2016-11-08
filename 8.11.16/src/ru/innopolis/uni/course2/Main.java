@@ -46,10 +46,11 @@ public class Main {
 //                });
         Object proxy = Proxy.newProxyInstance(Main.class.getClassLoader(),
                 new Class[]{InterfaceOne.class, InterfaceTwo.class}, new InvocationHandler() {
+                    private InterfaceOneImpl oneimpl= new InterfaceOneImpl();
                     @Override
                     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-                        System.out.println(args[0]);
-                        return null;
+                        System.out.println("logging "+args[0]);
+                        return method.invoke(oneimpl,args);
                     }
                 });
         InterfaceOne one = (InterfaceOne)proxy;

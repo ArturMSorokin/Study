@@ -33,19 +33,23 @@ public class ObjectPoolTest {
             }
             pool.returnObject(resource);
             resource=null;
+            ClassLoader
         }
     }
 //______________________________________________________________________________________
-    private class ObjectPool {
+    private static class ObjectPool {
         private Object monitor=new Object();
         private int size = 10, taken = 0;
         private LinkedList pool;
         private int timeOutMs = 10;
+        private void itemAdded() {taken++;}
+
+
 
         private void initList() {
-            for (int i = pool.size(); i < size - taken; ++i) {
-                pool.add(new Object());
-            }
+//            for (int i = pool.size(); i < size - taken; ++i) {
+//                pool.add(new Object());
+//            }
         }
 
         {
@@ -53,9 +57,16 @@ public class ObjectPoolTest {
             initList();
         }
 
-        public Object getObject() throws Exception {
-            if (pool.size() > 0)
+        private void addToPool(Object object) {
+            pool.add(object);
+            itemAdded();
+        }
+        private void itemGetted() {taken--;}
+        Object getObject() throws Exception {
+            if (pool.size() > 0) {
                 return pool.removeLast();
+                this.itemGetted();
+            }
             else {
                 synchronized (pool) {
                     try {
@@ -63,7 +74,7 @@ public class ObjectPoolTest {
                         if (pool.size() > 0) {
                             return pool.removeLast();
                         } else {
-                            throw new Exception("No Items");
+                            throw new Exception("Sorry, no Items");
                         }
                     } catch (InterruptedException e) {
                         e.printStackTrace();

@@ -1,0 +1,6 @@
+2016-11-14 00:00:45,297 INFO [{}] This is @BeforeClass method
+2016-11-14 00:00:45,332 INFO [{}] This is @AfterClass method
+2016-11-14 00:01:16,155 INFO [{}] This is @BeforeClass method
+2016-11-14 00:01:16,224 INFO [{}] This is @AfterClass method
+2016-11-14 00:01:26,256 INFO [{}] This is @BeforeClass method
+2016-11-14 00:01:26,276 INFO [{}] This is @AfterClass method

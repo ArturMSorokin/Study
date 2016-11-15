@@ -37,9 +37,5 @@ public class DeadLock {
         Object monitor2 = new Object();
         new Thread(new Run(monitor1,monitor2)).start();
         new Thread(new Run(monitor2,monitor1)).start();
-
-
-
-
     }
 }

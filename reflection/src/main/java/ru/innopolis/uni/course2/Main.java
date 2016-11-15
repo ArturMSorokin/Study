@@ -2,7 +2,7 @@ package ru.innopolis.uni.course2;
 
 import java.io.Serializable;
 import java.lang.reflect.*;
-
+import org.w3c.dom.Document;
 
 /**
  * Created by olymp on 08.11.2016.
@@ -47,13 +47,15 @@ public class Main {
         Object proxy = Proxy.newProxyInstance(Main.class.getClassLoader(),
                 new Class[]{InterfaceOne.class, InterfaceTwo.class}, new InvocationHandler() {
                     private InterfaceOneImpl oneimpl= new InterfaceOneImpl();
-                    @Override
+//                    @Override
                     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
                         System.out.println("logging "+args[0]);
                         return method.invoke(oneimpl,args);
                     }
+                    public void method() {}
                 });
         InterfaceOne one = (InterfaceOne)proxy;
+        proxy.method();
         one.doSome(5);
         System.out.println(proxy);
 

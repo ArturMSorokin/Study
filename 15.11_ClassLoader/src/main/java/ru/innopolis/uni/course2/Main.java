@@ -3,13 +3,15 @@ package ru.innopolis.uni.course2;
 /**
  * Created by olymp on 09.11.2016.
  */
+import com.sun.xml.internal.messaging.saaj.util.ByteInputStream;
+import com.sun.xml.internal.ws.encoding.MtomCodec;
+import com.sun.xml.internal.ws.util.ByteArrayBuffer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.BufferedReader;
-import java.io.FilePermission;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import javax.tools.JavaCompiler;
+import javax.tools.ToolProvider;
+import java.io.*;
 import java.security.Permission;
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -33,6 +35,13 @@ public class Main {
         System.out.println(Main.class.getProtectionDomain().getClassLoader());
 
         Permission permission = new FilePermission("/temp/*","read");
+        JavaCompiler javaCompiler = ToolProvider.getSystemJavaCompiler();
+        String newClass = "package ru.innopolis.uni.course2; class NewClass { int i;}";
+        byte[] sourceBytes = newClass.getBytes();
+        InputStream source = new ByteArrayInputStream(sourceBytes);
+        OutputStream classFile = new ByteArrayOutputStream();
+        javaCompiler.run(source,classFile, null);
+        return;
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         boolean exit = false;
@@ -65,6 +74,7 @@ public class Main {
             } catch (IllegalAccessException e) {
                 e.printStackTrace();
             }
+
 
 
         } while (!exit);

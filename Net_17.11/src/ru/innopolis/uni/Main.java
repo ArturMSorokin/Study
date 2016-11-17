@@ -3,10 +3,7 @@ package ru.innopolis.uni;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.net.URLConnection;
+import java.net.*;
 
 /**
  * Created by olymp on 17.11.2016.
@@ -14,7 +11,7 @@ import java.net.URLConnection;
 public class Main {
     public static void main(String[] arg) {
     }
-    private URLConnection url;
+    private URL url;
         private BufferedReader br;
         {
             try {
@@ -26,10 +23,12 @@ public class Main {
             br=new BufferedReader(new InputStreamReader(System.in));
         }
 
+//        ServerSocket ss = new ServerSocket(1234);
+//        Socket client = ss.accept();
+//        Socket s = new Socket("localhost",1234);
 
-
-        public void getURL() {
-            System.out.print("Enter url:");
-            urlString = br.
-        }
+//        public void getURL() {
+//            System.out.print("Enter url:");
+//            urlString = br.
+//        }
 }

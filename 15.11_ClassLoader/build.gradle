@@ -38,16 +38,4 @@ dependencies {
 //    compile "org.slf4j:slf4j-simple:1.7.21"
 }
 
-defaultTasks 'clean', 'run'
 
-task clean << {
-    println 'Default Cleaning!'
-}
-
-task run << {
-    println 'Default Running!'
-}
-
-task other << {
-    println "I'm not a default task!"
-}

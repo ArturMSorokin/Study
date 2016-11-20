@@ -18,9 +18,5 @@
         <processorPath useClasspath="true" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Net_17.11_main" target="1.5" />
-      <module name="Net_17.11_test" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>

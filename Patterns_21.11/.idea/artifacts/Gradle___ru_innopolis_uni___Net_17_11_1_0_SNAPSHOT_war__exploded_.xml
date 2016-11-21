@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="Gradle : ru.innopolis.uni : Net_17.11-1.0-SNAPSHOT.war (exploded)">
-    <output-path>$PROJECT_DIR$/classes/artifacts/Net_17.11/exploded/Net_17.11-1.0-SNAPSHOT.war</output-path>
+    <output-path>$PROJECT_DIR$/build/classes/artifacts/Net_17.11/exploded/Net_17.11-1.0-SNAPSHOT.war</output-path>
     <properties id="gradle-properties">
       <options external-project-path="$PROJECT_DIR$" />
     </properties>
@@ -21,7 +21,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/classes/artifacts/Net_17.11/exploded/Net_17.11-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/build/classes/artifacts/Net_17.11/exploded/Net_17.11-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
       </element>
     </root>
   </artifact>

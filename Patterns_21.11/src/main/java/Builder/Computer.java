@@ -8,13 +8,46 @@ public class Computer {
     private String motherBoard;
     private String ram;
     private String hdd;
-    private String gpu;
+    public Computer(Builder builder) {
+        this.motherBoard = builder.motherBoard;
+        this.cpu = builder.cpu;
+        this.ram = builder.ram;
+        this.hdd = builder.hdd;
+    }
 
-    public Computer(String cpu, String motherBoard, String ram, String hdd) {
-        this.cpu = cpu;
-        this.motherBoard = motherBoard;
-        this.ram = ram;
-        this.hdd = hdd;
+    public Computer() {
+
+    }
+
+    public static class Builder {
+        private String cpu;
+        private String motherBoard;
+        private String ram;
+        private String hdd;
+        Builder() { }
+
+        public void withMotherBoard(String motherBoard) {
+            this.motherBoard = motherBoard;
+        }
+        public void withCpu(String cpu) {
+            this.cpu = cpu;
+        }
+        public void withRam(String ram) {
+            this.ram = ram;
+        }
+        public void withHdd(String hdd) {
+            this.hdd = hdd;
+        }
+
+    }
+
+    @Override
+    public String toString() {
+        return new StringBuilder(motherBoard).append("|").
+                append(cpu).append("|").
+                append(ram).append("|").
+                append(hdd).append("|").
+                append(ram).append("|").toString();
     }
 
     public String getCpu() {

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Net_17.11.iml" filepath="$PROJECT_DIR$/.idea/modules/Net_17.11.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Net_17.11_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Net_17.11_main.iml" group="Net_17.11" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Net_17.11_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Net_17.11_test.iml" group="Net_17.11" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/purchaseList.iml" filepath="$PROJECT_DIR$/.idea/modules/purchaseList.iml" />
     </modules>
   </component>
 </project>

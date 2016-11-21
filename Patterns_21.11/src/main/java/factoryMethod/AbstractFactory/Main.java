@@ -13,6 +13,6 @@ public class Main {
         button.show();
         Label label = uiFactory.createLabel();
         label.show();
-        
+
     }
 }

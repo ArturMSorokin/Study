@@ -23,11 +23,10 @@ public class Ferm {
     public static void main(String[] arg) {
         Ferm ferm = new Ferm(new TruckFactory());
         ferm.start();
-
     }
     public void start() {
         Object cargo = createProduct();
-        this.transport.factoryMethod().transport(cargo);
+        this.transport.factoryMethod(/*Can have arguments: time for example*/).transport(cargo);
     }
     public Object createProduct() {
         return new Object();

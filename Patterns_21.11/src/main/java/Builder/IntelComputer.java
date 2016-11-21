@@ -12,21 +12,21 @@ public class IntelComputer extends ComputerBuilder{
 
     @Override
     public void buildNewMotherBoard() {
-        this.computer.setMotherBoard("Intel");
+//        this.computer.setMotherBoard("Intel");
     }
 
     @Override
     public void buildNewCpu() {
-        this.computer.setCpu("Intel");
+//        this.computer.setCpu("Intel");
     }
 
     @Override
     public void buildNewRam() {
-        this.computer.setRam("Intel");
+//        this.computer.setRam("Intel");
     }
 
     @Override
     public void buildNewHdd() {
-        this.computer.setHdd("Intel");
+//        this.computer.setHdd("Intel");
     }
 }

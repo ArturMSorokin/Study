@@ -7,11 +7,12 @@ public class Main {
     public static void main(String[] arg) {
 //        ComputerManager computerManager = new ComputerManager(new IntelComputer());
 //        System.out.println(computerManager.buildComputer());
-        Computer.Builder builder = new Computer.Builder();
-        builder.withMotherBoard("motherBoard");
-        builder.withCpu("cpu");
-        builder.withRam("ram");
-        builder.withHdd("hdd");
+        Computer.Builder builder = new Computer.Builder().
+        withMotherBoard("motherBoard").
+        withCpu("cpu").
+        withRam("ram").
+        withHdd("hdd").
+                withOs("os");
         System.out.println(new Computer(builder));
     }
 }

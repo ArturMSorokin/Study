@@ -51,7 +51,7 @@ public class Computer {
 
         public Builder withOs(String os) {
             this.os = os;
-            return
+            return this;
         }
 
     }

@@ -4,15 +4,13 @@ package Singleton;
  * Created by olymp on 21.11.2016.
  */
 public class CashSingleton {
-    public static CashSingleton getINSTANCE() {//DoubleCheck 
-        if (INSTANCE == null)
-            synchronized (CashSingleton.class) {
-                if (INSTANCE == null)
-                    INSTANCE = new CashSingleton();
-            }
-        return INSTANCE;
+    public static CashSingleton getINSTANCE() {//DoubleCheck
+
+        return InstanceHolder.INSTANCE;
     }
 
-    private static CashSingleton INSTANCE = null;
     private CashSingleton() {}
+    private static class InstanceHolder {
+        CashSingleton static final CashSingleton INSTANCE = new CashSingleton();
+    }
 }

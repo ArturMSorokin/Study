@@ -7,7 +7,7 @@ public class IntelComputer extends ComputerBuilder{
 //    protected Computer computer;
     @Override
     public void buildnewComputer() {
-        this.computer = new Computer();
+//        this.computer = new Computer();
     }
 
     @Override

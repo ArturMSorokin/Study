@@ -11,6 +11,6 @@ public class CashSingleton {
 
     private CashSingleton() {}
     private static class InstanceHolder {
-        CashSingleton static final CashSingleton INSTANCE = new CashSingleton();
+        static final CashSingleton  INSTANCE = new CashSingleton();
     }
 }

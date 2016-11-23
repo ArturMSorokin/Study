@@ -15,7 +15,7 @@ public class Main {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
-        try (Connection connection = DriverManager.getConnection("jdbc:h2:~/test4");
+        try (Connection connection = DriverManager.getConnection("jdbc:h2:~/test6");
                  Statement statement = connection.createStatement();
                 PreparedStatement  pStatement = connection.prepareStatement(PREPARED_INSERT);
                 Statement statement1 = connection.createStatement();

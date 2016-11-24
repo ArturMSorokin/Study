@@ -7,15 +7,11 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id = "dataHandler" class="ru.innopolis.spring.Ioc.DataHandler" autowire="byType">
+    <bean id = "dataHandler" class="ru.innopolis.spring.Ioc.DataHandler" autowire="byName"/>
 
-        <!--<constructor-arg name="downloader" ref="fileDownloader"/>-->
-        <!--<constructor-arg name="uploader" ref="fileUploader"/>
-        <property name="downloader" ref="fileDownloader"/>//wiring связывание ручное
-        <property name="uploader" ref="fileUploader"/>-->
-            </bean>
 
-    <bean id = "fileUploader" class="ru.innopolis.spring.Ioc.FileUploader"/>
-    <bean id = "fileDownloader" class="ru.innopolis.spring.Ioc.FileDownloader"/>
+
+    <bean id = "uploader" class="ru.innopolis.spring.Ioc.FileUploader"/>
+    <bean id = "downloader" class="ru.innopolis.spring.Ioc.FileDownloader"/>
 
 </beans>

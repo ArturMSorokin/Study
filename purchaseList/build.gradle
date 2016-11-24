@@ -11,7 +11,8 @@ tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
 repositories {
-    mavenCentral()
+    //smavenCentral()
+    jcenter()
     mavenLocal()
 }
 dependencies {
@@ -21,7 +22,6 @@ dependencies {
     compile "org.slf4j:slf4j-api:1.7.21"
     compile "org.slf4j:slf4j-log4j12:1.7.21"
     testCompile "junit:junit:4.11"
-    // https://mvnrepository.com/artifact/org.mockito/mockito-all
     compile group: 'org.mockito', name: 'mockito-all', version: '1.9.5'
 }
 jar.doFirst(){

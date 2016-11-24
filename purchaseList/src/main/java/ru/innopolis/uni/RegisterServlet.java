@@ -7,13 +7,14 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.OutputStream;
 
+
 /**
  * Created by olymp on 18.11.2016.
  */
-public class MyServlet extends HttpServlet {
+public class RegisterServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        getServletConfig().getRequestDistpacher
+        getServletConfig().get
         OutputStream os = resp.getOutputStream();
         os.write("<html><body>Hello, world!</body></html>".getBytes());
     }

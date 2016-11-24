@@ -8,10 +8,10 @@
         http://www.springframework.org/schema/context/spring-context.xsd">
 
     <bean id = "dataHandler" class="ru.innopolis.spring.Ioc.DataHandler" autowire="byName" scope="prototype"/>
+    <context:component-scan base-package="ru.innopolis.spring.Ioc"/>
 
 
-
-    <bean id = "uploader" class="ru.innopolis.spring.Ioc.FileUploader"/>
-    <bean id = "downloader" class="ru.innopolis.spring.Ioc.FileDownloader"/>
+    <!--<bean id = "uploader" class="ru.innopolis.spring.Ioc.FileUploader"/>-->
+    <!--<bean id = "downloader" class="ru.innopolis.spring.Ioc.FileDownloader"/>-->
 
 </beans>

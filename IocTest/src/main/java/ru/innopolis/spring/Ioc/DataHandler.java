@@ -1,12 +1,16 @@
 package ru.innopolis.spring.Ioc;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
 /**
  * Created by olymp on 24.11.2016.
  */
+@Component
 public class DataHandler {
-    //@Autowired
+    @Autowired
     private Downloader downloader;
-    //@Autowired
+    @Autowired
     private Uploader uploader;
 
 

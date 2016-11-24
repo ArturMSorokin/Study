@@ -1,12 +1,14 @@
 package ru.innopolis.spring.Ioc;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 /**
  * Created by olymp on 24.11.2016.
  */
 @Component
+@Scope(value = "")
 public class DataHandler {
     @Autowired
     private Downloader downloader;

@@ -21,6 +21,8 @@
     <bytecodeTargetLevel>
       <module name="Net_17.11_main" target="1.8" />
       <module name="Net_17.11_test" target="1.8" />
+      <module name="Patterns_main" target="1.8" />
+      <module name="Patterns_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

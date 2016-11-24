@@ -9,15 +9,13 @@ public class DataHandler {
     //@Autowired
     private Uploader uploader;
 
-    public DataHandler(Downloader downloader, Uploader uploader) {
-        /*this.downloader = downloader;
-        this.uploader = uploader;*/
-    }
 
-    public DataHandler(){
-        this.downloader = new FileDownloader();
-        this.uploader = new FileUploader();
-    }
+//    public DataHandler(Downloader downloader, Uploader uploader) {
+//        this.downloader = downloader;
+//        this.uploader = uploader;
+//    }
+
+
     public void hadleData(String srcPath, String destPath){
         String content = this.downloader.download(srcPath);
         String handledContent = handle(content);

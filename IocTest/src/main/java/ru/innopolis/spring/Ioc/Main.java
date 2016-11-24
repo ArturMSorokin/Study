@@ -6,6 +6,9 @@ package ru.innopolis.spring.Ioc;
 public class Main {
     public static void main(String[] arg) {
         DataHandler dataHandler = new DataHandler();
+        dataHandler.setDownloader(new FileDownloader());
+        dataHandler.setUploader(new FileUploader());
         dataHandler.hadleData("someSrcPath","someDestPath");
+
     }
 }

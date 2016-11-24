@@ -15,6 +15,8 @@ public class DataHandler {
         this.uploader = uploader;
     }
 
+    public DataHandler() {
+    }
 
     public void hadleData(String srcPath, String destPath){
         String content = this.downloader.download(srcPath);

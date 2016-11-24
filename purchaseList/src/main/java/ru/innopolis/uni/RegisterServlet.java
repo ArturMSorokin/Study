@@ -24,8 +24,12 @@ public class RegisterServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-//        super.doPost(req, resp);
+        if (req.getParameter("liName")==null) {//this is login
+            
+        } else { //this is registration
+
+        }
         logger.info("post added !!!!"+req.getParameter("liName")+"  username:"+req.getParameter("liUserName")
-        +"   Email:"+req.getParameter("liEmail")+"    Pass:"+req.getParameter("liPassword"));
+        +"   \nEmail:"+req.getParameter("liEmail")+"    Pass:"+req.getParameter("liPassword"));
     }
 }

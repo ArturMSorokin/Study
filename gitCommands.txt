@@ -1,0 +1,2 @@
+git ls-tree -r master --name-only - all tracked files
+git update-index --assume-unchanged path/to/file  - ignore tracking file

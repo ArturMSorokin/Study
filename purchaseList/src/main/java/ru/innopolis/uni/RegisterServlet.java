@@ -21,4 +21,11 @@ public class RegisterServlet extends HttpServlet {
         getServletContext().getRequestDispatcher("/registration.jsp").forward(req,resp);
 
     }
+
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//        super.doPost(req, resp);
+        logger.info("post added !!!!"+req.getParameter("liName")+"  username:"+req.getParameter("liUserName")
+        +"   Email:"+req.getParameter("liEmail")+"    Pass:"+req.getParameter("liPassword"));
+    }
 }

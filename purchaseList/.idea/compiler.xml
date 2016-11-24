@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="Net_17.11_main" target="1.8" />
       <module name="Net_17.11_test" target="1.8" />
+      <module name="Purchase_main" target="1.8" />
+      <module name="Purchase_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

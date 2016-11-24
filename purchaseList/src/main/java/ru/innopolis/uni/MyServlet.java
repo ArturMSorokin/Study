@@ -13,8 +13,6 @@ import java.io.OutputStream;
 public class MyServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        getServletConfig().getRequestDistpacher
-        OutputStream os = resp.getOutputStream();
-        os.write("<html><body>Hello, world!</body></html>".getBytes());
+        getServletContext().getRequestDispatcher("/registration.jsp").forward(req,resp);
     }
 }

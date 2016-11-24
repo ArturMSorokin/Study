@@ -10,10 +10,10 @@ public class DataHandler {
     private Uploader uploader;
 
 
-    public DataHandler(Downloader downloader, Uploader uploader) {
-        this.downloader = downloader;
-        this.uploader = uploader;
-    }
+//    public DataHandler(Downloader downloader, Uploader uploader) {
+//        this.downloader = downloader;
+//        this.uploader = uploader;
+//    }
 
     public DataHandler() {
     }

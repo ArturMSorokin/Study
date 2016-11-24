@@ -14,7 +14,7 @@ import java.io.OutputStream;
  * Created by olymp on 18.11.2016.
  */
 public class RegisterServlet extends HttpServlet {
-    private static Logger logger = LoggerFactory.getLogger(RegisterServlet.class);
+    private static Logger logger = LoggerFactory.getLogger(RegisterServlet.class) ;
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         logger.info("doGet????");

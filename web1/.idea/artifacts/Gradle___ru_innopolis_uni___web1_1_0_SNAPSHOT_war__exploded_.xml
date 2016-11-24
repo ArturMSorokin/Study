@@ -1,14 +1,14 @@
 <component name="ArtifactManager">
-  <artifact type="war" name="Gradle : ru.innopolis.uni : Purchase-1.0-SNAPSHOT.war">
-    <output-path>$PROJECT_DIR$/build/classes/artifacts/Purchase</output-path>
+  <artifact type="exploded-war" name="Gradle : ru.innopolis.uni : web1-1.0-SNAPSHOT.war (exploded)">
+    <output-path>$PROJECT_DIR$/build/classes/artifacts/web1/exploded/web1-1.0-SNAPSHOT.war</output-path>
     <properties id="gradle-properties">
       <options external-project-path="$PROJECT_DIR$" />
     </properties>
-    <root id="archive" name="Purchase-1.0-SNAPSHOT.war">
-      <element id="javaee-facet-resources" facet="Purchase_main/web/Web Gradle : Purchase-1.0-SNAPSHOT.war" />
+    <root id="root">
+      <element id="javaee-facet-resources" facet="web1_main/web/Web Gradle : web1-1.0-SNAPSHOT.war" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="Purchase_main" />
+          <element id="module-output" name="web1_main" />
           <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
         </element>
         <element id="directory" name="lib">
@@ -21,7 +21,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/build/classes/artifacts/Purchase/exploded/Purchase-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/build/classes/artifacts/web1/exploded/web1-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
       </element>
     </root>
   </artifact>

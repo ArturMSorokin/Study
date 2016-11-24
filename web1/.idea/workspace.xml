@@ -6,6 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,8 +51,8 @@
       <file leaf-file-name="MyServlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/innopolis/uni/MyServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" column="71" lean-forward="true" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
+            <state relative-caret-position="221">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -61,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/settings.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+              <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -70,8 +71,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-231">
-              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="119">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -81,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="63" lean-forward="false" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+              <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -92,7 +93,7 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="D:\PF\develcp\gradle-3.1" />
+        <entry key="$PROJECT_DIR$" value="C:\PF\develop\gradle-3.1" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -285,6 +286,7 @@
         <entry key="$PROJECT_DIR$/../15.11_ClassLoader" value="2957738706110" />
         <entry key="$PROJECT_DIR$/../Patterns_21.11" value="2959449388166" />
         <entry key="$PROJECT_DIR$/../reflection" value="2958410524724" />
+        <entry key="$PROJECT_DIR$" value="2959461335144" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -306,138 +308,138 @@
               <option name="name" value="web1" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="D:/PF/develcp/gradle-3.1/src/announce" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/antlr" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/base-services" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/base-services-groovy" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/build-comparison" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/build-init" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/cli" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/code-quality" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/composite-builds" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/core" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/dependency-management" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/diagnostics" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/ear" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/ide" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/ide-native" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/ide-play" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/installation-beacon" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/internal-android-performance-testing" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/internal-integ-testing" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/internal-performance-testing" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/internal-testing" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/ivy" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/jacoco" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/javascript" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/jetty" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/jvm-services" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/language-groovy" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/language-java" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/language-jvm" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/language-native" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/language-scala" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/launcher" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/logging" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/maven" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/messaging" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/model-core" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/model-groovy" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/native" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/open-api" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/osgi" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/platform-base" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/platform-jvm" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/platform-native" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/platform-play" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/plugin-development" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/plugin-use" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/plugins" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/process-services" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/publish" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/reporting" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/resources" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/resources-http" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/resources-s3" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/resources-sftp" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/scala" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/signing" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/task-cache-http" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/test-kit" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/testing-base" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/testing-jvm" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/testing-native" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/tooling-api" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/tooling-api-builders" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/ui" />
-                  <option value="D:/PF/develcp/gradle-3.1/src/wrapper" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/ant-1.9.6.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/ant-launcher-1.9.6.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/gradle-base-services-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/gradle-base-services-groovy-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/gradle-cli-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/gradle-core-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/gradle-docs-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/gradle-installation-beacon-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/gradle-jvm-services-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/gradle-launcher-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/gradle-logging-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/gradle-messaging-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/gradle-model-core-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/gradle-model-groovy-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/gradle-native-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/gradle-open-api-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/gradle-process-services-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/gradle-resources-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/gradle-script-kotlin-0.3.2.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/gradle-tooling-api-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/gradle-ui-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/gradle-wrapper-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/groovy-all-2.4.7.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-announce-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-antlr-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-build-comparison-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-build-init-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-code-quality-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-composite-builds-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-dependency-management-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-diagnostics-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-ear-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-ide-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-ide-native-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-ide-play-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-ivy-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-jacoco-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-javascript-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-jetty-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-language-groovy-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-language-java-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-language-jvm-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-language-native-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-language-scala-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-maven-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-osgi-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-platform-base-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-platform-jvm-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-platform-native-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-platform-play-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-plugin-development-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-plugin-use-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-plugins-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-publish-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-reporting-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-resources-http-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-resources-s3-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-resources-sftp-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-scala-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-signing-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-task-cache-http-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-test-kit-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-testing-native-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/gradle-tooling-api-builders-3.1.jar" />
-                  <option value="D:/PF/develcp/gradle-3.1/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/src/announce" />
+                  <option value="C:/PF/develop/gradle-3.1/src/antlr" />
+                  <option value="C:/PF/develop/gradle-3.1/src/base-services" />
+                  <option value="C:/PF/develop/gradle-3.1/src/base-services-groovy" />
+                  <option value="C:/PF/develop/gradle-3.1/src/build-comparison" />
+                  <option value="C:/PF/develop/gradle-3.1/src/build-init" />
+                  <option value="C:/PF/develop/gradle-3.1/src/cli" />
+                  <option value="C:/PF/develop/gradle-3.1/src/code-quality" />
+                  <option value="C:/PF/develop/gradle-3.1/src/composite-builds" />
+                  <option value="C:/PF/develop/gradle-3.1/src/core" />
+                  <option value="C:/PF/develop/gradle-3.1/src/dependency-management" />
+                  <option value="C:/PF/develop/gradle-3.1/src/diagnostics" />
+                  <option value="C:/PF/develop/gradle-3.1/src/ear" />
+                  <option value="C:/PF/develop/gradle-3.1/src/ide" />
+                  <option value="C:/PF/develop/gradle-3.1/src/ide-native" />
+                  <option value="C:/PF/develop/gradle-3.1/src/ide-play" />
+                  <option value="C:/PF/develop/gradle-3.1/src/installation-beacon" />
+                  <option value="C:/PF/develop/gradle-3.1/src/internal-android-performance-testing" />
+                  <option value="C:/PF/develop/gradle-3.1/src/internal-integ-testing" />
+                  <option value="C:/PF/develop/gradle-3.1/src/internal-performance-testing" />
+                  <option value="C:/PF/develop/gradle-3.1/src/internal-testing" />
+                  <option value="C:/PF/develop/gradle-3.1/src/ivy" />
+                  <option value="C:/PF/develop/gradle-3.1/src/jacoco" />
+                  <option value="C:/PF/develop/gradle-3.1/src/javascript" />
+                  <option value="C:/PF/develop/gradle-3.1/src/jetty" />
+                  <option value="C:/PF/develop/gradle-3.1/src/jvm-services" />
+                  <option value="C:/PF/develop/gradle-3.1/src/language-groovy" />
+                  <option value="C:/PF/develop/gradle-3.1/src/language-java" />
+                  <option value="C:/PF/develop/gradle-3.1/src/language-jvm" />
+                  <option value="C:/PF/develop/gradle-3.1/src/language-native" />
+                  <option value="C:/PF/develop/gradle-3.1/src/language-scala" />
+                  <option value="C:/PF/develop/gradle-3.1/src/launcher" />
+                  <option value="C:/PF/develop/gradle-3.1/src/logging" />
+                  <option value="C:/PF/develop/gradle-3.1/src/maven" />
+                  <option value="C:/PF/develop/gradle-3.1/src/messaging" />
+                  <option value="C:/PF/develop/gradle-3.1/src/model-core" />
+                  <option value="C:/PF/develop/gradle-3.1/src/model-groovy" />
+                  <option value="C:/PF/develop/gradle-3.1/src/native" />
+                  <option value="C:/PF/develop/gradle-3.1/src/open-api" />
+                  <option value="C:/PF/develop/gradle-3.1/src/osgi" />
+                  <option value="C:/PF/develop/gradle-3.1/src/platform-base" />
+                  <option value="C:/PF/develop/gradle-3.1/src/platform-jvm" />
+                  <option value="C:/PF/develop/gradle-3.1/src/platform-native" />
+                  <option value="C:/PF/develop/gradle-3.1/src/platform-play" />
+                  <option value="C:/PF/develop/gradle-3.1/src/plugin-development" />
+                  <option value="C:/PF/develop/gradle-3.1/src/plugin-use" />
+                  <option value="C:/PF/develop/gradle-3.1/src/plugins" />
+                  <option value="C:/PF/develop/gradle-3.1/src/process-services" />
+                  <option value="C:/PF/develop/gradle-3.1/src/publish" />
+                  <option value="C:/PF/develop/gradle-3.1/src/reporting" />
+                  <option value="C:/PF/develop/gradle-3.1/src/resources" />
+                  <option value="C:/PF/develop/gradle-3.1/src/resources-http" />
+                  <option value="C:/PF/develop/gradle-3.1/src/resources-s3" />
+                  <option value="C:/PF/develop/gradle-3.1/src/resources-sftp" />
+                  <option value="C:/PF/develop/gradle-3.1/src/scala" />
+                  <option value="C:/PF/develop/gradle-3.1/src/signing" />
+                  <option value="C:/PF/develop/gradle-3.1/src/task-cache-http" />
+                  <option value="C:/PF/develop/gradle-3.1/src/test-kit" />
+                  <option value="C:/PF/develop/gradle-3.1/src/testing-base" />
+                  <option value="C:/PF/develop/gradle-3.1/src/testing-jvm" />
+                  <option value="C:/PF/develop/gradle-3.1/src/testing-native" />
+                  <option value="C:/PF/develop/gradle-3.1/src/tooling-api" />
+                  <option value="C:/PF/develop/gradle-3.1/src/tooling-api-builders" />
+                  <option value="C:/PF/develop/gradle-3.1/src/ui" />
+                  <option value="C:/PF/develop/gradle-3.1/src/wrapper" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/ant-1.9.6.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/ant-launcher-1.9.6.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/gradle-base-services-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/gradle-base-services-groovy-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/gradle-cli-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/gradle-core-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/gradle-docs-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/gradle-installation-beacon-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/gradle-jvm-services-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/gradle-launcher-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/gradle-logging-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/gradle-messaging-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/gradle-model-core-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/gradle-model-groovy-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/gradle-native-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/gradle-open-api-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/gradle-process-services-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/gradle-resources-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/gradle-script-kotlin-0.3.2.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/gradle-tooling-api-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/gradle-ui-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/gradle-wrapper-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/groovy-all-2.4.7.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-announce-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-antlr-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-build-comparison-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-build-init-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-code-quality-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-composite-builds-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-dependency-management-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-diagnostics-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-ear-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-ide-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-ide-native-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-ide-play-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-ivy-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-jacoco-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-javascript-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-jetty-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-language-groovy-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-language-java-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-language-jvm-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-language-native-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-language-scala-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-maven-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-osgi-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-platform-base-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-platform-jvm-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-platform-native-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-platform-play-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-plugin-development-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-plugin-use-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-plugins-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-publish-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-reporting-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-resources-http-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-resources-s3-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-resources-sftp-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-scala-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-signing-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-task-cache-http-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-test-kit-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-testing-native-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/gradle-tooling-api-builders-3.1.jar" />
+                  <option value="C:/PF/develop/gradle-3.1/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -454,8 +456,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ru/innopolis/uni/MyServlet.java" />
         <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/innopolis/uni/MyServlet.java" />
       </list>
     </option>
   </component>
@@ -472,11 +474,28 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1320" />
+    <option name="width" value="1304" />
     <option name="height" value="784" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -493,97 +512,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Net_17.11" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="web1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Net_17.11" />
+              <option name="myItemId" value="web1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Net_17.11" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Net_17.11" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uni" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -611,34 +562,6 @@
       <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -658,11 +581,7 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <method />
     </configuration>
@@ -689,7 +608,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="arquillianRunConfiguration">
@@ -840,7 +759,8 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -882,12 +802,6 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
@@ -962,6 +876,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -981,7 +901,13 @@
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/1" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment />
+      <deployment>
+        <artifact name="Gradle : ru.innopolis.uni : web1-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_Net_17_11_2" />
         <option name="HTTP_PORT" value="8081" />
@@ -1041,11 +967,43 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method />
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : ru.innopolis.uni : web1-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
     </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
     </list>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -1058,49 +1016,50 @@
       <option name="presentableId" value="Default" />
       <updated>1479821181195</updated>
       <workItem from="1479978840362" duration="588000" />
+      <workItem from="1479984525270" duration="1817000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="588000" />
+    <option name="totallyTimeSpent" value="2405000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1304" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2468944" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24693252" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1128,32 +1087,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/innopolis/uni/MyServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="63" lean-forward="false" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-231">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1161,15 +1096,71 @@
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/innopolis/uni/MyServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="71" lean-forward="true" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
+        <state relative-caret-position="187">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/innopolis/uni/MyServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding />
         </state>
       </provider>

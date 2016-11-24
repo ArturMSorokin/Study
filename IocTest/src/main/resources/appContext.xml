@@ -7,7 +7,7 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id = "dataHandler" class="ru.innopolis.spring.Ioc.DataHandler" autowire="byName"/>
+    <bean id = "dataHandler" class="ru.innopolis.spring.Ioc.DataHandler" autowire="byName" scope="prototype"/>
 
 
 

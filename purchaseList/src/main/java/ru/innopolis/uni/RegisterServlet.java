@@ -4,9 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.*;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.sql.*;
@@ -29,30 +27,25 @@ public class RegisterServlet extends HttpServlet {
 
         try {
             Class.forName("org.h2.Driver");
-
-
             try (Connection connection = DriverManager.getConnection("jdbc:h2:~/test7");
                  Statement statement = connection.createStatement();) {
                 ForTest:
                 {
-                    statement.execute("CREATE TABLE IF NOT EXISTS student(name VARCHAR(255) primary key, sex bool,groupNum INT );");
-                    statement.execute("insert into Product (surname, name) values ('sdf',true,22);");
-                    statement.execute("insert into Product (surname, name) values ('ter',false,33);");
+                    statement.execute("CREATE TABLE IF NOT Users(username VARCHAR(255) primary key,name VARCHAR(255)," +
+                            " email VARCHAR(255),passhash BIGINT);");
+                    statement.execute("insert into Product (username, name, email,passhash) " +
+                            "values ('sdf','sfff','email@email.ru',8457483958);");
                 }
 
-
-                ResultSet resultSet = statement.executeQuery("select * from workers;");
-                StringBuilder tableContent = new StringBuilder().append("\n");
-                while (resultSet.next())
-                    tableContent.append("<tr>\n" +
-                            "<td>"+resultSet.getString(1)+"</td>\n" +
-                            "<td>"+resultSet.getString(2)+"</td>\n" +
-                            "</tr>\n");
-                req.setAttribute("tableContent",tableContent.toString());
-                System.out.println(tableContent.toString());
-
-
-
+                if (req.getParameter("liName")==null) {//this is login
+                    String liUserName = (String)req.getAttribute("liUserName");
+                    ResultSet resultSet = statement.executeQuery("select passhash from Users where name="+req.getAttribute("liUserName")+";");
+                    if (resultSet.next() && req.getAttribute("liPassword")!=null && resultSet.getLong(1)==Long.parseLong((String)req.getAttribute("liPassword"))) {
+                        resp.addCookie(new Cookie("user",liUserName));
+                    }
+                } else { //this is registration
+                    statement.executeQuery()
+                }
             } catch (SQLException e) {
                 e.printStackTrace();
             }
@@ -61,11 +54,6 @@ public class RegisterServlet extends HttpServlet {
         }
 
 
-        if (req.getParameter("liName")==null) {//this is login
-
-        } else { //this is registration
-
-        }
         logger.info("post added !!!!"+req.getParameter("liName")+"  username:"+req.getParameter("liUserName")
         +"   \nEmail:"+req.getParameter("liEmail")+"    Pass:"+req.getParameter("liPassword"));
     }

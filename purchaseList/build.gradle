@@ -22,6 +22,7 @@ dependencies {
     compile "org.slf4j:slf4j-api:1.7.21"
     compile "org.slf4j:slf4j-log4j12:1.7.21"
     testCompile "junit:junit:4.11"
+    compile group: 'com.h2database', name: 'h2', version: '1.4.193'
     compile group: 'org.mockito', name: 'mockito-all', version: '1.9.5'
 }
 jar.doFirst(){

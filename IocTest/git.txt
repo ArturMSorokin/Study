@@ -36,5 +36,23 @@ git log --since=2.weeks   "2008-01-15"
 git commit -m 'initial commit'
 git add forgotten_file
 git commit --amend
-git reset HEAD CONTRIBUTING.md - from index
+git reset HEAD CONTRIBUTING.md - removes from index
 git checkout -- [file] - to last commit
+
+git tag -l "v1.8.5*"
+    v1.8.5
+    v1.8.5-rc0
+    v1.8.5-rc1
+$ git tag -a v1.4 -m "my version 1.4"
+$ git tag
+    v0.1
+    v1.3
+    v1.4
+git tag -a v1.2 9fceb02
+git show v1.2
+git push origin v1.5
+git push origin --tags
+
+git config --global alias.unstage 'reset HEAD --'
+git config --global alias.br branch
+git config --global alias.ci commit

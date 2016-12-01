@@ -56,3 +56,13 @@ git push origin --tags
 git config --global alias.unstage 'reset HEAD --'
 git config --global alias.br branch
 git config --global alias.ci commit
+
+git branch -d hotfix - remove branch
+git branch --merged
+git branch --no-merged
+git branch -v
+3,5
+git push origin serverfix:serverfix
+git checkout -b [ветка] [удал. сервер]/[ветка] ==git checkout --track origin/serverfix
+git push [удал. сервер] [лок. ветка]:[удал. ветка]    git push origin :serverfix - deletes remote branch
+3,6

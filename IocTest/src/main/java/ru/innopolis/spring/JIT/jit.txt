@@ -92,4 +92,13 @@ jit компилирует в машинный на лету.
   5) оптимизируются циклы, мб развернуты
 
 включение режима печати результата:
-+XX+PrintCompilation
+-XX:+PrintCompilation время compilationId flag
+b - blockingCompiler - заблокировано ... при клиентском компиляторе
+* n - generatingNativeWrapper -
+% - on stack replacement
+! - methodHasExceptionHandlers
+s - syncronizedMethod
+class::method не увидим перегруженные методы
+размер байт кода метода
+
+LogCompilation: -XX+LogCompilation

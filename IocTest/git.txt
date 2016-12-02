@@ -27,6 +27,7 @@ git log --pretty=format:"%h - %an, %ar : %s"
     %cd	Дата коммитера
     %cr	Относительная дата коммитера
     %s	Содержание
+git log --abbrev-commit - shorts commit
 git log --pretty=oneline
     ca82a6dff817ec66f44342007202690a93763949 changed the version number
 git log --pretty=format:"%h %s" --graph
@@ -56,3 +57,23 @@ git push origin --tags
 git config --global alias.unstage 'reset HEAD --'
 git config --global alias.br branch
 git config --global alias.ci commit
+
+git branch -d hotfix - remove branch
+git branch --merged
+git branch --no-merged
+git branch -v
+3,5
+git push origin serverfix:serverfix
+git checkout -b [ветка] [удал. сервер]/[ветка] ==git checkout --track origin/serverfix
+git push [удал. сервер] [лок. ветка]:[удал. ветка]    git push origin :serverfix - deletes remote branch
+3,6
+$ git checkout experiment
+$ git rebase master
+git rebase --onto master server client
+Не перемещайте коммиты, которые вы уже отправили в публичный репозиторий.
+6.1
+git rev-parse topic1 - shows sha1
+git reflog
+git show HEAD@{5} - shows state at -5 commits
+git show master@{yesterday}
+git log -g - ссылочный лог

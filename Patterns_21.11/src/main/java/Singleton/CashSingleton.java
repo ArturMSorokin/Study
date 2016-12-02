@@ -3,7 +3,7 @@ package Singleton;
 /**
  * Created by olymp on 21.11.2016.
  */
-public class CashSingleton {
+public class CashSingleton implements AutoCloseable {
     public static CashSingleton getINSTANCE() {//DoubleCheck
 
         return InstanceHolder.INSTANCE;

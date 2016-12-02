@@ -23,7 +23,7 @@ public class PostgreDAOFactory implements DAOFactory {
 
     public static final String DBURL = "jdbc:postgresql://localhost:5432/classwork";
     private final String USER_NAME = "postgres";
-    private final String PASSWORD = "Qwerty";
+    private final String PASSWORD = "12345";
 
     @Autowired
     private StudentDAO userDAO;

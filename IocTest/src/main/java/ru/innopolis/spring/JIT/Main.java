@@ -2,22 +2,32 @@ package ru.innopolis.spring.JIT;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
+import java.util.Scanner;
 
 /**
- * Created by olymp on 02.12.2016.
+ * Created by d.sapaev on 02.12.2016.
  */
 public class Main {
-    private static int Loop = 100_000_000;
-    public static void main(String[] arg) {
-        List<String> list = new ArrayList<>();
-        for (int i=0; i<Loop; ++i) {
-            list.add(""+i);
-            try {
-                Thread.sleep(100);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
+    private static int LOOP_COUNT = 1_000_000;
+    public static void main(String[] args) throws InterruptedException {
+        try(Scanner scanner = new Scanner(System.in)){
+            while(scanner.hasNext()){
+                createObject();
+                scanner.next();
             }
         }
-        System.out.println(list);
+
     }
+
+    static Object createObject() throws InterruptedException {
+        List<String> list = new ArrayList<>();
+        for (int i = 0; i < LOOP_COUNT; i++) {
+            Random r = new Random();
+            String s = r.nextInt() + "" + i;
+            list.add(s);
+        }
+        return list;
+    }
+
 }

@@ -50,6 +50,37 @@ java 8
         - можно подставить вместо интерфейса с 1 абстрактным методом за искл методов Object.
         - обращаться в default реализациям нельзя.
         - выполняются быстрее чем анонимные типы.
+        Исполняется в ивок динамик
      ссылки на функции стрим апи
 
     @FunctionalInterface - 1 абстр мерод искл объект
+
+    3. Ссылка на метод.
+
+    4. Стандартные предикаты интерфейсов
+        T Function (T)
+        bool Predicate
+        doSome(Predicate p)
+        doSome((arg)->arg.equals("123"));
+        bifunction T a T b return T
+        T supplier()
+        void consumer(T)
+
+
+    5. java.util.stream
+        Collection<Integer> collection = Arrays.asList(new Integer[]{1,2,3,4,5,6});
+        int count = 0;
+          for (Integer i : collection) {
+            if (i%2 !=0)
+               count+=i;
+        sout(count);
+      stream api
+        Integer summOdd = collection.stream()
+            .filter(o -> o % 2 !=0) //конвейерные
+            .reduce((s1,s2) ->s1 + s2 ) //терминальный
+            .orElse(0).
+        Конвейерные методы
+        Терминальные методы
+        Работают на функциональных предикатах
+
+        ParallelStream

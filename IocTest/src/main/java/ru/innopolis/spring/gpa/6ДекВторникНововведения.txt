@@ -1,0 +1,52 @@
+    Нововведения ява 8, 7
+java 7.
+1) project coin.
+    a. Strings in switch
+    b. бинарные литералы и знак подчеркивания числовых литералов
+        private static final int LOOP_COUNT=1000_000_000_000_000_000_000_000_000_000_000_000
+        0x123456789abcdef
+        01234567
+        010101b
+    c. multicatch
+        } catch (IOException | RuntimeException) {
+    d. diamond operatior. <>
+        List<List<List<String> > > List = new ArrayList<List<List<String> > > ();
+        List<List<List<String> > > List = new ArrayList<> ();
+    e. try with resources
+        try (...) {) AutoClosable  в обратном порядке, безопастно.
+    f. URLClassLoader.close()
+    g. обновление Concurrent
+    h. NIO2 new input output
+        Для другой работой с ФС.
+java 8
+  1. методы интерфейсов по-умолчанию. Интерфейс как не имел состояния так и не имеет.
+    public interface Interface1 {
+        default int doSome() {
+            return 1;  } }
+     public interface Interface2 {
+        default int doSome() {
+            return 2; } }
+    public class implements I1,i2 {} -> error
+  2. lambdas
+    а->5
+    interface Comparator {
+      int compare(Object arg1, Object arg2)
+
+    doSome(Comparator arg) {
+      arg.compare(...);
+    }
+    a) class ... implements Comparator
+        Mycomparator me = new MyComparator()
+        obj.doSome(me);
+    b) anonimyous class
+    doSome(){ new Comparator(){
+        @override
+        int compare(...) {...} }
+    c) obj.doSome((Object arg1, Object arg2)->{return arg1==arg2;});
+        obj.doSome((arg1,arg2) -> {return arg.eq(arg2);});
+        obj.doSome((arg1,arg2) -> {return 1;});
+        obj.doSome(a->5);
+        условия:
+        - можно подставить вместо интерфейса с 1 абстрактным методом за искл методов Object.
+        - обращаться в default реализациям нельзя.
+        - выполняются быстрее чем анонимные типы.

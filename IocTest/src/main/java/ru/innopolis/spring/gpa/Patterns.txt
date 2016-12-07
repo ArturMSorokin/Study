@@ -36,3 +36,5 @@
     myObject.accept(mew FirstFoeffVisitorCalculator());
 Калькулятор. Ввести название команды. add mult div sub. Команда.
 
+enum abstract
+annotation

@@ -1,0 +1,85 @@
+Один монитор можно захватить 2 раза, из одного объекта.
+public syncronized doSome() {
+    doSomethingElse();
+}
+how to release after wait?
+1) public syncronized doSomethingElse {
+    try {
+        wait();//отпускает монитор.
+    catch (...) {
+
+    }
+}
+syncronized (...) {
+    notify();
+
+    thread sleep
+    ююю
+} only after monitor release
+2) thread.interrupt
+3) спонтанное пробуждение
+
+Модель памяти : какое значение считаем в определенный момент времени.
+
+
+массивы
+интерфейсы
+аннотации retentionPolicy
+enum abstract? yes наследование - нет
+коллекции!!!
+
+Архитектуры.
+SOA
+SOAP simple OBJECT ACESS PROTOCOL
+WSDL описывает веб сервис - xml
++ нет зависимости от языка
+ESB - шины данных
+
+Библиотеки jax-ws jaxb
+
+REST ПОДХОД К ПОСТРОЕНИЮ ПРОТОКОЛА ПОВЕРХ  HTTP
+OSGI - подключение доп модулей в режиме онлайн bmw - плагины, в эклипсе
+
+MVP & MVVM
+MVP ОТДЕЛЯЕТ логику от представления, presenter ее содержит
+view передает управление презентеру
+легко поменять view или presenter
+gwt gxt
+V1 - на каждый чих обращается
+MVVM moled View Viewmodel StudentViewModel
+Student<->StudentModel
+1) mapToEmtity() StudentModel mapToMode(Student)
+2) reflection
+3) сторонние библиотеки: Orica - за нас делает первый вариант.
+фреймворк - совет с тимлидом
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

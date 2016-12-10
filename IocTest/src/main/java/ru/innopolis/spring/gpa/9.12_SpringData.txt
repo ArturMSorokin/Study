@@ -1,0 +1,32 @@
+    SpringData.
+    Множество подпроектов.
+    SpringData jpa. - позволяет на уровне абстракции выше, чем обычный jpa.
+    Dao->repository.
+    Сам spring не имеет реализации. Можно использовать Hibernate.
+    1)настроить jpa provider.
+    2)SpringData 4.1 Core concepts. http://docs.spring.io/spring-data/data-jpa/docs/current/reference/html/#repositories.core-concepts
+
+    1) juhfybxbdfnm rjkbxtcndj pfgbctq
+    2) gfubyfwbz
+    3) ленивая подгрузка
+
+    1) 4.2
+    2)аннотация query
+        Правила формирования:
+    http://devcolibri.com/4149
+    Эффективность падает ...
+    4.4.6
+
+
+
+
+    Декоратор.
+    class Crypt ...
+
+    Фасад.
+    SpringBoot
+    api->точка
+
+    Адаптер.
+    Делегирование.
+    void

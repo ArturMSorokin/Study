@@ -1,0 +1,18 @@
+    Rmi - remote method invocation.
+    Демилитаризованная зона. Фронтэнд.
+    Клиентская: jsp, controller
+    Common: (исп-ся и на клиенте и на сервере) model, serviceInterfaces
+    Сервер приложения: services, entity, dao
+    Выделяются интерфейсы
+    сервиысы - интерфейсы
+            \ реализация
+    дао - интерфейся
+        \ реализация
+        Spring remoting - не трогая код, а трогая конф, разбить приложение
+    1. Разбить проект. На 3 части. Пакета или модуля.
+    a) ... client/web ...
+    б) ... server ...
+    в) ... common ... model serviceInterface
+    2. подредактировать сборку dependences: from common
+    3. configure
+    4. разворачиваем на отд томкатах

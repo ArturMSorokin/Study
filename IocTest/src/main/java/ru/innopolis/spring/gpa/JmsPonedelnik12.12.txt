@@ -1,0 +1,32 @@
+    JMS producer
+    JMS - client -> producer
+                \> consumer
+    1. pointToPoint очередь сообщений
+    2. publisher/subscriber
+    типы сообщений
+    1.StreamMessage
+    2/TextMessage ( String )
+    3. ObjectMessage
+    4. ByteMessage.
+    5. MapMessage. assotiativnii massiv
+
+    1 procucer creates mess
+    2 publishes in broker or jms provider - program, that realises JMS standart (ActiveMQ), to queue for example - point to point
+    only one consumer gets message
+    If publisher/subscriber-  abstraction: 'topic'. Journaling module, security module.
+    If publisher/subscriber-  abstraction: 'topic'. Journaling module, security module.
+    If you not subscribed, you don't get last messages, that was sent until you subsctibed.
+    Persistent messages - they saving on hdd, not only in ram, if somebody turns off electicity, they dont disappars.
+    Syncronoys/asyncronoys working with messages. JMS
+    MessageListener - asyncronous.
+    class ConnectionFactory from JNDI.
+    -> Connection -> session -> session.start() -> Message -> jmsproducer.send() jmsproducer.receive().
+    JMSProducer
+    JMSConsumer
+    JmsTemplate.
+
+    Chat realisation.
+    Download ActiveMQ
+    start ActiveMQ
+
+    zenmate: j1314256@mvrht.com /zenmatecomru

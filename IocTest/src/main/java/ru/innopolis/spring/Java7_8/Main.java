@@ -1,5 +1,6 @@
 package ru.innopolis.spring.Java7_8;
 
+import java.io.Serializable;
 import java.lang.*;
 import java.util.Arrays;
 import java.util.Collection;
@@ -10,6 +11,10 @@ import java.util.function.Predicate;
  * Created by olymp on 06.12.2016.
  */
 public class Main {
+    @Override
+    Class
+    Serializable
+    Comporable<>
     public static void main(String[] arg) {
         Collection<Integer> collection = Arrays.asList(new Integer[]{1,2,3,4,5,6});
         Integer sumOdd = collection.stream().

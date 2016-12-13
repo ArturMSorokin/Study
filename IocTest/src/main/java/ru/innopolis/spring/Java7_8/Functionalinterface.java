@@ -1,5 +1,7 @@
 package ru.innopolis.spring.Java7_8;
 
+import java.util.concurrent.ConcurrentHashMap;
+
 /**
  * Created by olymp on 06.12.2016.
  */
@@ -10,7 +12,7 @@ public interface Functionalinterface {
     default void doSomeDefault() {
         int i = hashCode();
         System.out.println();
-
+        ConcurrentHashMap
     }
 //    public void doSomeAbstract();
 }

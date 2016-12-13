@@ -1,9 +1,11 @@
 package Builder;
 
+import java.io.Serializable;
+
 /**
  * Created by olymp on 21.11.2016.
  */
-public class Main {
+public class Main  {
     public static void main(String[] arg) {
 //        ComputerManager computerManager = new ComputerManager(new IntelComputer());
 //        System.out.println(computerManager.buildComputer());

@@ -3,3 +3,5 @@
 */.*/*
 purchaseList/
 _.git/
+*/.gradle
+*/out

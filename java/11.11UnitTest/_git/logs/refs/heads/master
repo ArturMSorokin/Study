@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 dbd428a88c363a5b111b8ef56a276726d71f5b59 asdf <asdf@asdf.ru> 1478714489 +0300	commit (initial): First commit with gradle
+dbd428a88c363a5b111b8ef56a276726d71f5b59 a9cb4eeb0493ff3ae1a5af7e833db1c428de5a64 asdf <asdf@asdf.ru> 1478807859 +0300	commit: logging added
+a9cb4eeb0493ff3ae1a5af7e833db1c428de5a64 2a38f81bda2728753e643d73ca144f9ee5d66fc2 asdf <asdf@asdf.ru> 1478849944 +0300	commit: .idea added
+2a38f81bda2728753e643d73ca144f9ee5d66fc2 9ad731f7efbc479acd73d750c30ea36d302db9b2 asdf <asdf@asdf.ru> 1478863267 +0300	commit: first

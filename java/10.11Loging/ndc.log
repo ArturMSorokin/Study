@@ -1,0 +1,23 @@
+2016-11-10 16:04:33,936 ERROR [{}] some
+2016-11-10 16:08:52,501 ERROR [{}] some
+2016-11-10 16:09:02,675 ERROR [{}] some
+2016-11-10 16:10:03,746 ERROR [{}] some
+2016-11-10 16:12:42,205 ERROR [{}] some
+2016-11-10 16:31:44,009 ERROR [{{username,admin}}] some
+      # - use context2016-11-10 16:31:44,014 ERROR [{{username,admin}}] doSome admin
+      # - use context2016-11-10 16:32:17,531 ERROR [{{username,admin}}] some
+      # - use context2016-11-10 16:32:17,537 ERROR [{{username,admin}}] doSome admin
+      # - use context2016-11-10 16:32:44,724 ERROR [{{username,admin}}] some
+      2016-11-10 16:32:44,727 ERROR [{{username,admin}}] doSome admin
+      2016-11-10 16:33:54,910 ERROR [{{username,admin}}] some
+      2016-11-10 16:33:54,915 ERROR [{{username,admin}}] doSome 
+      2016-11-10 16:38:10,890 ERROR [{{username,admin}}] some
+2016-11-10 16:38:10,898 ERROR [{{username,admin}}] doSome 
+2016-11-10 16:38:27,724 ERROR [{{name,admin}}] some
+2016-11-10 16:38:27,733 ERROR [{{name,admin}}] doSome 
+2016-11-10 17:31:04,257 ERROR [{{name,admin}}] some
+2016-11-10 17:31:04,263 ERROR [{{name,admin}}] doSome 
+2016-11-10 17:31:41,790 ERROR [{{name,admin}}] some
+2016-11-10 17:31:41,799 ERROR [{{name,admin}}] doSome 
+2016-11-10 17:32:01,482 ERROR [{{name,admin}}] some
+2016-11-10 17:32:01,490 ERROR [{{name,admin}}] doSome 
